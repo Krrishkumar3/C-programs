@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+void printSquare();
+int main(){
+    int n;
+    printf("enter the number:");
+    scanf("%d",&n);
+    printf("square of the number is %f",pow(n,2));
+}
+void printSquare(){
+    printSquare();
+    return;
+}
