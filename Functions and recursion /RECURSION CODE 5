@@ -1,0 +1,12 @@
+#include<stdio.h>
+int calcPercentage(int math,int science,int sanskrit);
+int main(){
+    int math=99;
+    int science=99;
+    int sanskrit=89;
+    printf("the total percentage of marks is:%d",calcPercentage(math,science,sanskrit));
+    return 0;
+}
+int calcPercentage(int math,int science,int sanskrit){
+    return((math+science+sanskrit)/3);
+}
